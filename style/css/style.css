@@ -4,24 +4,32 @@
   border: 0;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-:focus, :active {
+:focus,
+:active {
   outline: none;
 }
 
-a:focus, a:active {
+a:focus,
+a:active {
   outline: none;
 }
 
-nav, footer, header, aside {
+nav,
+footer,
+header,
+aside {
   display: block;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   font-size: 100%;
@@ -31,7 +39,9 @@ html, body {
   -moz-text-size-adjust: 100%;
 }
 
-input, button, textarea {
+input,
+button,
+textarea {
   font-family: inherit;
 }
 
@@ -48,7 +58,8 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-a, a:visited {
+a,
+a:visited {
   text-decoration: none;
 }
 
@@ -64,7 +75,12 @@ img {
   vertical-align: top;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-size: inherit;
   font-weight: inherit;
 }
@@ -197,8 +213,8 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 1rem;
   padding: 1.4rem 3rem;
   margin: 0 0.1rem;
-  background: -webkit-gradient(linear, left top, right top, from(#B918FA), color-stop(#B420FA), color-stop(#AE28FA), color-stop(#A831FA), color-stop(#A339FA), color-stop(#9B44FA), color-stop(#944EFA), color-stop(#8D58FA), color-stop(#8860FA), color-stop(#8367FA), color-stop(#7D70FA), color-stop(#767AFB), color-stop(#7083FB), color-stop(#6A8CFC), color-stop(#6594FC), color-stop(#609BFC), color-stop(#59A6FD), color-stop(#54AEFE), color-stop(#4FB5FE), color-stop(#59A6FD), color-stop(#609BFC), color-stop(#6594FC), color-stop(#6A8CFC), color-stop(#7083FB), color-stop(#767AFB), color-stop(#7D70FA), color-stop(#8367FA), color-stop(#8860FA), color-stop(#8D58FA), color-stop(#944EFA), color-stop(#9B44FA), color-stop(#A339FA), color-stop(#A831FA), color-stop(#AE28FA), color-stop(#B420FA), to(#B918FA));
-  background: linear-gradient(90deg, #B918FA, #B420FA, #AE28FA, #A831FA, #A339FA, #9B44FA, #944EFA, #8D58FA, #8860FA, #8367FA, #7D70FA, #767AFB, #7083FB, #6A8CFC, #6594FC, #609BFC, #59A6FD, #54AEFE, #4FB5FE, #59A6FD, #609BFC, #6594FC, #6A8CFC, #7083FB, #767AFB, #7D70FA, #8367FA, #8860FA, #8D58FA, #944EFA, #9B44FA, #A339FA, #A831FA, #AE28FA, #B420FA, #B918FA);
+  background: -webkit-gradient(linear, left top, right top, from(#b918fa), color-stop(#b420fa), color-stop(#ae28fa), color-stop(#a831fa), color-stop(#a339fa), color-stop(#9b44fa), color-stop(#944efa), color-stop(#8d58fa), color-stop(#8860fa), color-stop(#8367fa), color-stop(#7d70fa), color-stop(#767afb), color-stop(#7083fb), color-stop(#6a8cfc), color-stop(#6594fc), color-stop(#609bfc), color-stop(#59a6fd), color-stop(#54aefe), color-stop(#4fb5fe), color-stop(#59a6fd), color-stop(#609bfc), color-stop(#6594fc), color-stop(#6a8cfc), color-stop(#7083fb), color-stop(#767afb), color-stop(#7d70fa), color-stop(#8367fa), color-stop(#8860fa), color-stop(#8d58fa), color-stop(#944efa), color-stop(#9b44fa), color-stop(#a339fa), color-stop(#a831fa), color-stop(#ae28fa), color-stop(#b420fa), to(#b918fa));
+  background: linear-gradient(90deg, #b918fa, #b420fa, #ae28fa, #a831fa, #a339fa, #9b44fa, #944efa, #8d58fa, #8860fa, #8367fa, #7d70fa, #767afb, #7083fb, #6a8cfc, #6594fc, #609bfc, #59a6fd, #54aefe, #4fb5fe, #59a6fd, #609bfc, #6594fc, #6a8cfc, #7083fb, #767afb, #7d70fa, #8367fa, #8860fa, #8d58fa, #944efa, #9b44fa, #a339fa, #a831fa, #ae28fa, #b420fa, #b918fa);
   background-size: 350%;
   -webkit-animation: animate 7s linear infinite paused;
           animation: animate 7s linear infinite paused;
@@ -400,7 +416,7 @@ h1, h2, h3, h4, h5, h6 {
       -ms-flex-align: center;
           align-items: center;
   padding: 1rem 2rem;
-  background-color: #39394D;
+  background-color: #39394d;
   margin: 4.26rem 0 2rem 0;
 }
 

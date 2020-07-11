@@ -1,56 +1,56 @@
 .works {
+  width: 100%;
+  margin: 6rem 0;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-right: 6rem;
     width: 100%;
-    margin: 6rem 0;
 
-    &__content {
-        display: flex;
-        justify-content: space-between;
-        align-content: center;
-        padding-right: 6rem;
-        width: 100%;
+    & img {
+      width: 30%;
+      max-width: 290px;
+    }
+  }
 
-        & img {
-            width: 30%;
-            max-width: 290px;
-        }
+  &__text {
+    width: 70%;
+
+    & h2 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: $white;
     }
 
-    &__text {
-        width: 70%;
-
-        & h2 {
-            font-size: 2.4rem;
-            font-weight: 700;
-            color: $white;
-        }
-
-        & p {
-            margin-top: 2.1rem;
-            font-size: 1.1rem;
-            line-height: 3;
-        }
+    & p {
+      margin-top: 2.1rem;
+      font-size: 1.1rem;
+      line-height: 3;
     }
+  }
 
-    &__block {
-        min-height: 230px;
-        
-        &__image {
-            height: 210px;
-            position: relative;
+  &__block {
+    min-height: 230px;
 
-            &:focus {
-                outline: none;
-            }
+    &__image {
+      height: 210px;
+      position: relative;
 
-            & img {
-                position: absolute;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                top: 0;
-                margin: auto;
-                width: 60%;                
-            }
-        }
+      &:focus {
+        outline: none;
+      }
+
+      & img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        width: 60%;
+      }
     }
+  }
 }
