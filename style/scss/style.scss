@@ -1,0 +1,20 @@
+$white: #ffffff;
+$green-light: #00ec98;
+$black: #21212e;
+$black-light: #66667e;
+
+@import "reset";
+@import "container";
+@import "header";
+@import "intro";
+@import "btn";
+@import "works";
+@import "features";
+
+body {
+  font-family: "Muli", sans-serif;
+  font-size: 1rem;
+  color: $white;
+  background-color: $black;
+}
+

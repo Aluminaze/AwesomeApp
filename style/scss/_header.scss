@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .company {
+            display: flex;
+            align-items: center;
+            &__icon {
+                width: 5.66rem;
+                height: 6.46rem;
+            }
+            &__name {
+                margin-left: 0.7rem;
+                display: inline-block;
+                font-size: 1.7rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,68 @@
+.btn {      
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: $white;
+    border-radius: 1rem;
+    padding: 1rem 2.9rem;
+    margin: 0 0.1rem;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in;         
+    
+    &:hover {
+        color: $black-light;
+        background-color: $white;                
+    }
+}
+
+.btn-withBorder {     
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: $white;
+    border: 2px solid $white;
+    border-radius: 1rem;
+    padding: 1.4rem 3rem;
+    margin: 0 0.1rem;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in;   
+
+    &:hover {
+        color: $black-light;
+        background-color: $white;                
+    }
+}
+
+.btn-withColor {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: $white;
+    border-radius: 1rem;
+    padding: 1.4rem 3rem;
+    margin: 0 0.1rem;
+    background: linear-gradient(90deg,#B918FA,#B420FA,#AE28FA,#A831FA,#A339FA,#9B44FA,#944EFA,#8D58FA,#8860FA,#8367FA,#7D70FA,#767AFB,#7083FB,#6A8CFC,#6594FC,#609BFC,#59A6FD,#54AEFE,#4FB5FE,#59A6FD,#609BFC,#6594FC,#6A8CFC,#7083FB,#767AFB,#7D70FA,#8367FA,#8860FA,#8D58FA,#944EFA,#9B44FA,#A339FA,#A831FA,#AE28FA,#B420FA,#B918FA);
+    background-size: 350%;
+    animation: animate 7s linear infinite paused;  
+
+    &:hover {
+        animation-play-state: running;         
+    }
+
+    @keyframes animate {
+        0% {
+            background-position: 100% 0;
+        }
+        25% {
+            background-position: 250% 0;
+        }
+        50% {
+            background-position: 300% 0;
+        }
+        75% {
+            background-position: 200% 0;
+        }
+        100% {
+            background-position: 100% 0;
+        }
+    }
+}
+
