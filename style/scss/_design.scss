@@ -1,0 +1,313 @@
+.design {
+  &__inner {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+
+  &__sreens {
+    width: 60%;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 7.5rem;
+  }
+
+  &__title {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: $white;
+  }
+
+  &__description {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: $black-light;
+    line-height: 3;
+    margin-top: 3.6rem;
+  }
+
+  &__link {
+    margin-top: 3.66rem;
+  }
+
+  &__button-features {
+    margin-top: 3rem;
+    @extend .btn-withColor;
+  }
+}
+
+.main-sreen {
+  position: relative;
+  width: 550px;
+  margin: 0 auto;
+  padding-bottom: 1.85rem;
+  @extend %black-box-shadow;
+
+  &__header {
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(
+      #b918fa,
+      #b420fa,
+      #ae28fa,
+      #a831fa,
+      #a339fa,
+      #9b44fa,
+      #944efa,
+      #8d58fa,
+      #8860fa,
+      #8367fa,
+      #7d70fa,
+      #767afb,
+      #7083fb,
+      #6a8cfc,
+      #6594fc,
+      #609bfc
+    );
+  }
+
+  &__left-side {
+    width: 50%;
+    text-align: center;
+  }
+
+  &__right-side {
+    width: 50%;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: $white;
+    margin: 5rem 0 0 0;
+  }
+
+  &__user-name {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: $white;
+    margin: 1rem 0 0 0;
+  }
+
+  &__time {
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: $white;
+    margin: 5.4rem 0 0 0;
+  }
+
+  &__lights {
+    position: absolute;
+    left: -110px;
+    top: 250px;
+    width: 450px;
+    @extend %black-box__style;
+  }
+
+  &__consumption {
+    position: absolute;
+    right: -190px;
+    top: 140px;
+    width: 380px;
+    height: 370px;
+    @extend %black-box__style;
+  }
+}
+
+.appliances {
+  padding: 1rem 3.1rem;
+  margin-top: 12.85rem;
+
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+
+  &__link {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: $link-color;
+  }
+}
+
+.appliance {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 210px;
+  max-height: 100%;
+  @extend %black-box__style;
+  padding: 2rem 0 0 0;
+  margin-top: 2.35rem;
+
+  &__icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 2.1rem 2rem 2.1rem;
+  }
+
+  &__power-icon {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: $green-light;
+  }
+
+  &__info {
+    background-color: $black-middle;
+    padding: 1.15rem 2.1rem;
+  }
+
+  &__device-name {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: $white;
+  }
+
+  &__work-time {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: $black-light;
+  }
+
+  &__power-button {
+    margin: 1.35rem 2.1rem;
+  }
+}
+
+.lights {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.7rem 2rem;
+
+  &__title {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: $white;
+  }
+
+  &__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem 0;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+
+    &-count {
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: $white;
+    }
+
+    &-name {
+      font-size: 1.1rem;
+      font-weight: 400;
+      color: $white;
+      margin-top: 1rem;
+    }
+
+    &-work-time {
+      font-size: 1rem;
+      font-weight: 400;
+      color: $black-light;
+      margin-top: 0.2rem;
+    }
+  }
+
+  &__description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: $black-light;
+  }
+}
+
+.consumption {
+  padding: 3.2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__title {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: $white;
+    background-color: $black-middle;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  &__progress-bar {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__circle-box {
+    width: 180px;
+    height: 180px;
+  }
+
+  &__circle--green {
+    stroke: $green-light;
+    stroke-width: 10px;
+    fill: transparent;
+    stroke-linecap: round;
+    transform-origin: center;
+    transform: rotate(-90deg);
+    transition: stroke-dashoffset 0.5sec;
+  }
+
+  &__circle--black {
+    stroke: $black-light;
+    stroke-width: 2px;
+    fill: transparent;
+    stroke-linecap: round;
+    transform-origin: center;
+  }
+
+  &__info {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__percent-number {
+    font-size: 3.4rem;
+    font-weight: 400;
+    color: $white;
+  }
+
+  &__percent {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: $white;
+  }
+}

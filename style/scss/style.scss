@@ -2,14 +2,33 @@ $white: #ffffff;
 $green-light: #00ec98;
 $black: #21212e;
 $black-light: #66667e;
+$black-middle: #39394d;
+$link-color: #8563fc;
+$background-color: #20202c;
+
+%black-box-shadow {
+  box-shadow: -1px 2px 15px 4px rgba(0, 0, 0, 0.75);
+}
+
+%box-border-radius {
+  border-radius: 1rem;
+}
+
+%black-box__style {
+  background-color: $background-color;
+  @extend %box-border-radius;
+  @extend %black-box-shadow;
+}
 
 @import "reset";
 @import "container";
+@import "btn";
 @import "header";
 @import "intro";
-@import "btn";
 @import "works";
 @import "features";
+@import "design";
+@import "priceCards";
 
 body {
   font-family: "Muli", sans-serif;
