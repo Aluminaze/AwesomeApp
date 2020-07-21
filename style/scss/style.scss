@@ -29,10 +29,15 @@ $background-color: #20202c;
 @import "features";
 @import "design";
 @import "priceCards";
+@import "questions";
 
 body {
   font-family: "Muli", sans-serif;
   font-size: 1rem;
   color: $white;
   background-color: $black;
+}
+
+.displayNone {
+  display: none;
 }
