@@ -1,6 +1,7 @@
 .intro {
   width: 100%;
   margin-top: 2rem;
+  height: 80vh;
 
   &__inner {
     width: 100%;
@@ -27,17 +28,28 @@
 
   &__link {
     margin-top: 3.66rem;
+
+    &-button--color {
+      @extend .btn-withColor;
+      margin-right: 2rem;
+    }
+
+    &-button--white {
+      @extend .btn-withBorder;
+    }
   }
 
   &__title {
-    display: inline;
     font-size: 3.66rem;
     font-weight: 400;
   }
 
   &__text {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: $white;
+    line-height: 2.5;
     margin-top: 1rem;
     max-width: 40%;
-    line-height: 3;
   }
 }

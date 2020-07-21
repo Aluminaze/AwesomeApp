@@ -1,5 +1,6 @@
 .features {
-  margin: 6rem 0;
+  margin: 1rem 0;
+  height: 100vh;
 
   &__inner {
     padding: 3rem 0;
@@ -31,7 +32,10 @@
     & p {
       margin-top: 2.1rem;
       font-size: 1.1rem;
-      line-height: 3;
+      line-height: 2.5;
+      font-size: 1.4rem;
+      font-weight: 400;
+      color: $white;
     }
   }
 

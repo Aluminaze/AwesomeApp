@@ -21,8 +21,8 @@ $background-color: #20202c;
 }
 
 @import "reset";
-@import "container";
 @import "btn";
+@import "container";
 @import "header";
 @import "intro";
 @import "works";
@@ -30,14 +30,12 @@ $background-color: #20202c;
 @import "design";
 @import "priceCards";
 @import "questions";
+@import "getStart";
+@import "footer";
 
 body {
   font-family: "Muli", sans-serif;
   font-size: 1rem;
   color: $white;
   background-color: $black;
-}
-
-.displayNone {
-  display: none;
 }
