@@ -1,9 +1,10 @@
 .features {
   margin: 1rem 0;
-  height: 100vh;
 
   &__inner {
     padding: 3rem 0;
+    height: 100%;
+    width: 100%;
   }
 
   &__content {

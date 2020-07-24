@@ -1,13 +1,14 @@
 .intro {
   width: 100%;
-  margin-top: 2rem;
-  height: 80vh;
+  min-height: 87vh;
 
   &__inner {
     width: 100%;
-    min-height: 750px;
+    height: 100%;
     background: url(../../images/intro/bg-image1.png) right top no-repeat;
     background-size: contain;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   &__block {
@@ -28,7 +29,7 @@
 
   &__link {
     margin-top: 3.66rem;
-
+    padding-bottom: 2rem;
     &-button--color {
       @extend .btn-withColor;
       margin-right: 2rem;
