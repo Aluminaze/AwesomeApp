@@ -29,19 +29,30 @@
             </div>
           </div>
           <!-- Desktop navigation -->
-          <nav class="header__nav">
-            <a href="#" class="header__nav-link">Home</a>
-            <a href="#" class="header__nav-link">About</a>
-            <a href="#" class="header__nav-link">Product</a>
-            <a href="#" class="header__nav-link">Pricing</a>
-            <a href="#" class="header__nav-link">Contact</a>
+          <nav class="header__desktop-nav desktop-nav-menu">
+            <a href="#" class="desktop-nav-menu__link">Home</a>
+            <a href="#" class="desktop-nav-menu__link">About</a>
+            <a href="#" class="desktop-nav-menu__link">Product</a>
+            <a href="#" class="desktop-nav-menu__link">Pricing</a>
+            <a href="#" class="desktop-nav-menu__link">Contact</a>
           </nav>
           <!-- / Desktop navigation -->
 
           <!-- Mobile navigation -->
-          <div class="header__mobile-nav">
-            <div class="header__mobile-nav-button"></div>
+          <div class="header__mobile-nav-button mobile-nav__button">            
+            <div class="mobile-nav__button--open"></div>
           </div>
+
+          <nav class="header__mobile-nav mobile-nav-menu">
+            <img class="mobile-nav-menu__button--close" src="images/header/close.svg" alt="close">
+            <ul class="mobile-nav-menu__links">
+              <li class="mobile-nav-menu__link"><a href="#">Home</a></li>
+              <li class="mobile-nav-menu__link"><a href="#">About</a></li>
+              <li class="mobile-nav-menu__link"><a href="#">Product</a></li>
+              <li class="mobile-nav-menu__link"><a href="#">Pricing</a></li>
+              <li class="mobile-nav-menu__link"><a href="#">Contact</a></li>
+            </ul>
+          </nav>
           <!-- / Mobile navigation -->
         </div>
       </div>
@@ -646,5 +657,6 @@
     </script>
     <script src="js/consumption_progress_bar.js"></script>
     <script src="js/questions.js"></script>
+    <script src="js/mobieNavMenu.js"></script>
   </body>
 </html>
