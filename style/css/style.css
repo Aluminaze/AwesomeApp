@@ -231,6 +231,39 @@ h6 {
   font-size: 1.7rem;
 }
 
+.header__nav {
+  display: none;
+}
+
+.header__mobile-nav {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.header__mobile-nav-button, .header__mobile-nav-button::after, .header__mobile-nav-button::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30px;
+  height: 3px;
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+
+.header__mobile-nav-button::after {
+  content: '';
+  display: block;
+  top: 10px;
+}
+
+.header__mobile-nav-button::before {
+  content: '';
+  display: block;
+  top: 20px;
+}
+
 .intro {
   width: 100%;
   min-height: 87vh;

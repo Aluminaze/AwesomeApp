@@ -23,8 +23,38 @@
   }
 
   &__nav {
+    display: none;
     &-link {
       @extend .btn-nav
+    }
+  }
+
+  &__mobile-nav {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    
+    &-button, &-button::after, &-button::before {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 30px;
+      height: 3px;
+      background-color: $white;
+      border-radius: 1rem;
+    }
+
+    &-button::after {
+      content: '';
+      display: block;      
+      top: 10px;
+    }
+
+    &-button::before {
+      content: '';
+      display: block;
+      top: 20px;
     }
   }
 }
