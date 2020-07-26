@@ -11,12 +11,13 @@
     display: flex;
     justify-content: space-around;
     align-content: center;
+    padding-bottom: 5rem;
 
     & img {
       max-width: 350px;
 
       @include _1170 {
-        max-width: 100px;
+        max-width: 300px;
       }
     }
   }
@@ -48,20 +49,22 @@
     margin-top: 3.66rem;
   }
 
-  &__block {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 4rem;
-    padding: 0 2rem;
+  &__slide-block {
     width: 100%;
+    height: auto;
+    position: relative;
   }
 
   &__box {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    max-width: 23%;
+    max-width: 350px;
     box-shadow: -1px 2px 15px 4px rgba(0, 0, 0, 0.75);
+
+    @include _768{
+      max-width: 400px;
+    }
 
     &__title {
       display: flex;

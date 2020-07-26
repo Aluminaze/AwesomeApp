@@ -8,6 +8,10 @@
 
   &__sreens {
     width: 60%;
+    
+    @include _1170 {
+      transform: scale(0.7);
+    }
   }
 
   &__content {
