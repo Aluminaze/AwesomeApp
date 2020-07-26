@@ -20,6 +20,7 @@ $background-color: #20202c;
   @extend %black-box-shadow;
 }
 
+@import "media-mixin";
 @import "reset";
 @import "btn";
 @import "container";
@@ -32,6 +33,7 @@ $background-color: #20202c;
 @import "questions";
 @import "getStart";
 @import "footer";
+
 
 body {
   font-family: "Muli", sans-serif;

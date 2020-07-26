@@ -23,7 +23,7 @@
     margin: 0 auto;
     width: 210px;
 
-    @media screen and (max-width: 1200px) {
+    @include _1170 {
       width: 180px;
     }
   }
@@ -52,7 +52,8 @@
     color: $white;
     line-height: 2.5;
     margin-top: 1rem;
-    max-width: 40%;
+    max-width: 50%;
+    text-align: justify;
   }
 
   &__background-image {

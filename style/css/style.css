@@ -106,8 +106,8 @@ h6 {
   padding: 1rem 2.9rem;
   margin: 0 0.1rem;
   background-color: transparent;
-  -webkit-transition: background-color 0.3s ease-in;
-  transition: background-color 0.3s ease-in;
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
 }
 
 .btn-nav:hover, .desktop-nav-menu__link:hover, .mobile-nav-menu a:hover {
@@ -238,7 +238,7 @@ h6 {
   font-size: 1.7rem;
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1170px) {
   .desktop-nav-menu {
     display: none;
   }
@@ -254,7 +254,7 @@ h6 {
   cursor: pointer;
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1170px) {
   .mobile-nav__button {
     display: block;
   }
@@ -359,7 +359,7 @@ h6 {
   width: 210px;
 }
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1170px) {
   .intro__triangle-image {
     width: 180px;
   }
@@ -385,7 +385,8 @@ h6 {
   color: #ffffff;
   line-height: 2.5;
   margin-top: 1rem;
-  max-width: 40%;
+  max-width: 50%;
+  text-align: justify;
 }
 
 .intro__background-image {
@@ -481,6 +482,12 @@ h6 {
   max-width: 350px;
 }
 
+@media (max-width: 1170px) {
+  .features__content img {
+    max-width: 100px;
+  }
+}
+
 .features__text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -504,11 +511,11 @@ h6 {
 
 .features__text p {
   margin-top: 2.1rem;
-  font-size: 1.1rem;
   line-height: 2.5;
   font-size: 1.4rem;
   font-weight: 400;
   color: #ffffff;
+  text-align: justify;
 }
 
 .features__link {
