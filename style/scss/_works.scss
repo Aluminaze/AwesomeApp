@@ -29,14 +29,21 @@
 
     & p {
       margin-top: 2.1rem;
-      font-size: 1.1rem;
-      line-height: 3;
+      font-size: 1.6rem;
+      line-height: 1.5;
+
+      @include _1170 {
+        font-size: 1.4rem;
+      }
     }
   }
 
   &__block {
     min-height: 230px;
 
+    @include _1170 {
+      margin-top: 2rem;
+    }
     &__image {
       height: 210px;
       position: relative;

@@ -1,4 +1,4 @@
-.intro {  
+.intro {
   width: 100%;
   min-height: 87vh;
 
@@ -44,6 +44,10 @@
   &__title {
     font-size: 3.66rem;
     font-weight: 400;
+
+    @include _1170 {
+      font-size: 2.85rem;
+    }
   }
 
   &__text {
@@ -51,9 +55,13 @@
     font-weight: 400;
     color: $white;
     line-height: 2.5;
-    margin-top: 1rem;
+    margin-top: 2.1rem;
     max-width: 50%;
     text-align: justify;
+
+    @include _1170 {
+      line-height: 1.5;
+    }
   }
 
   &__background-image {
@@ -61,5 +69,10 @@
     right: 0;
     bottom: 0;
     width: 500px;
+    z-index: -1;
+
+    @include _1170 {
+      width: 400px;
+    }
   }
 }

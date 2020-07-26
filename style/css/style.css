@@ -381,14 +381,26 @@ h6 {
   font-weight: 400;
 }
 
+@media (max-width: 1170px) {
+  .intro__title {
+    font-size: 2.85rem;
+  }
+}
+
 .intro__text {
   font-size: 1.4rem;
   font-weight: 400;
   color: #ffffff;
   line-height: 2.5;
-  margin-top: 1rem;
+  margin-top: 2.1rem;
   max-width: 50%;
   text-align: justify;
+}
+
+@media (max-width: 1170px) {
+  .intro__text {
+    line-height: 1.5;
+  }
 }
 
 .intro__background-image {
@@ -396,6 +408,13 @@ h6 {
   right: 0;
   bottom: 0;
   width: 500px;
+  z-index: -1;
+}
+
+@media (max-width: 1170px) {
+  .intro__background-image {
+    width: 400px;
+  }
 }
 
 .works {
@@ -438,12 +457,24 @@ h6 {
 
 .works__text p {
   margin-top: 2.1rem;
-  font-size: 1.1rem;
-  line-height: 3;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 1170px) {
+  .works__text p {
+    font-size: 1.4rem;
+  }
 }
 
 .works__block {
   min-height: 230px;
+}
+
+@media (max-width: 1170px) {
+  .works__block {
+    margin-top: 2rem;
+  }
 }
 
 .works__block__image {
@@ -469,10 +500,22 @@ h6 {
   margin: 1rem 0;
 }
 
+@media (max-width: 1170px) {
+  .features {
+    margin: 1rem 0 0 0;
+  }
+}
+
 .features__inner {
   padding: 3rem 0;
   height: 100%;
   width: 100%;
+}
+
+@media (max-width: 1170px) {
+  .features__inner {
+    padding: 0;
+  }
 }
 
 .features__content {
@@ -486,12 +529,12 @@ h6 {
   padding-bottom: 5rem;
 }
 
-.features__content img {
+.features__circle-image {
   max-width: 350px;
 }
 
 @media (max-width: 1170px) {
-  .features__content img {
+  .features__circle-image {
     max-width: 300px;
   }
 }
@@ -524,6 +567,13 @@ h6 {
   font-weight: 400;
   color: #ffffff;
   text-align: justify;
+}
+
+@media (max-width: 1170px) {
+  .features__text p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
 }
 
 .features__link {
@@ -576,12 +626,21 @@ h6 {
 
 .features__box__title h3 {
   margin-left: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .features__box__content {
   padding: 0 2rem;
-  line-height: 3;
+  font-size: 1.4rem;
+  line-height: 1.5;
   margin-bottom: 3rem;
+}
+
+@media (max-width: 1170px) {
+  .features__box__content {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
 }
 
 .design {
@@ -625,18 +684,36 @@ h6 {
   padding-left: 7.5rem;
 }
 
+@media (max-width: 1170px) {
+  .design__content {
+    padding-left: 4.5rem;
+  }
+}
+
 .design__title {
   font-size: 2.6rem;
   font-weight: 700;
   color: #ffffff;
 }
 
+@media (max-width: 1170px) {
+  .design__title {
+    font-size: 2.4rem;
+  }
+}
+
 .design__description {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   font-weight: 400;
   color: #66667e;
-  line-height: 3;
+  line-height: 1.5;
   margin-top: 3.6rem;
+}
+
+@media (max-width: 1170px) {
+  .design__description {
+    margin-top: 1rem;
+  }
 }
 
 .design__link {
@@ -967,7 +1044,7 @@ h6 {
   position: relative;
 }
 
-.price-cards__image--rectangular {
+.price-cards__rectangular-image {
   position: absolute;
   top: 140px;
   right: 0;
@@ -975,7 +1052,7 @@ h6 {
 }
 
 @media (max-width: 1170px) {
-  .price-cards__image--rectangular {
+  .price-cards__rectangular-image {
     top: 0;
     width: 200px;
   }
@@ -1010,11 +1087,23 @@ h6 {
   color: #ffffff;
 }
 
+@media (max-width: 1170px) {
+  .price-cards__title {
+    font-size: 2.4rem;
+  }
+}
+
 .price-cards__title-note {
   font-size: 1.4rem;
   font-weight: 300;
   color: #66667e;
   margin-top: 2rem;
+}
+
+@media (max-width: 1170px) {
+  .price-cards__title-note {
+    margin-top: 1rem;
+  }
 }
 
 .price-cards__switcher {
@@ -1036,6 +1125,13 @@ h6 {
   border: 1px solid #ffffff;
   padding: 1rem 3.2rem;
   margin-top: 2rem;
+}
+
+@media (max-width: 1170px) {
+  .price-cards__switcher {
+    margin-top: 1rem;
+    height: 45px;
+  }
 }
 
 .price-cards__switcher-btn {
@@ -1106,6 +1202,13 @@ h6 {
   color: #ffffff;
 }
 
+@media (max-width: 1170px) {
+  .little-card__title,
+  .big-card__title {
+    font-size: 2.4rem;
+  }
+}
+
 .little-card__title-note, .little-card__price-note,
 .big-card__title-note,
 .big-card__price-note {
@@ -1123,6 +1226,13 @@ h6 {
   margin-top: 1.1rem;
 }
 
+@media (max-width: 1170px) {
+  .little-card__price,
+  .big-card__price {
+    font-size: 4.2rem;
+  }
+}
+
 .little-card__description,
 .big-card__description {
   font-size: 1.3rem;
@@ -1130,6 +1240,13 @@ h6 {
   color: #66667e;
   line-height: 2;
   margin: 3.2rem 4.5rem;
+}
+
+@media (max-width: 1170px) {
+  .little-card__description,
+  .big-card__description {
+    margin: 1.2rem 2.5rem;
+  }
 }
 
 .little-card__link,
@@ -1158,14 +1275,14 @@ h6 {
   position: relative;
 }
 
-.questions__image {
+.questions__triangle-image {
   position: absolute;
   left: 0;
   top: 70px;
 }
 
 @media (max-width: 1170px) {
-  .questions__image {
+  .questions__triangle-image {
     width: 200px;
     top: 0;
   }
@@ -1187,7 +1304,7 @@ h6 {
 
 @media (max-width: 1170px) {
   .questions__header {
-    padding-top: 19rem;
+    padding-top: 16rem;
   }
 }
 
@@ -1199,7 +1316,7 @@ h6 {
 
 @media (max-width: 1170px) {
   .questions__title {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
   }
 }
 
@@ -1208,6 +1325,12 @@ h6 {
   font-weight: 400;
   color: #66667e;
   margin-top: 2rem;
+}
+
+@media (max-width: 1170px) {
+  .questions__title-note {
+    margin-top: 1rem;
+  }
 }
 
 .questions__items {
@@ -1360,9 +1483,23 @@ h6 {
   padding: 2rem;
 }
 
+@media (max-width: 1170px) {
+  .questions__answer-text {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    line-height: 1.5;
+  }
+}
+
 .get-start {
   background-color: #262635;
   margin-top: 6rem;
+}
+
+@media (max-width: 1170px) {
+  .get-start {
+    margin-top: 1rem;
+  }
 }
 
 .get-start__inner {
@@ -1409,12 +1546,24 @@ h6 {
   color: #ffffff;
 }
 
+@media (max-width: 1170px) {
+  .get-start__title {
+    font-size: 2.4rem;
+  }
+}
+
 .get-start__title-note {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: 300;
   color: #66667e;
-  line-height: 2;
+  line-height: 1.5;
   margin-top: 1rem;
+}
+
+@media (max-width: 1170px) {
+  .get-start__title-note {
+    font-size: 1.4rem;
+  }
 }
 
 .get-start__link {
@@ -1531,7 +1680,11 @@ h6 {
 }
 
 .footer__media-links ul li {
-  margin-left: .6rem;
+  margin-left: 0.6rem;
+}
+
+.footer__copyright {
+  margin-top: 1rem;
 }
 
 body {

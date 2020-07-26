@@ -1,10 +1,18 @@
 .features {
   margin: 1rem 0;
 
+  @include _1170 {
+    margin: 1rem 0 0 0;
+  }
+
   &__inner {
     padding: 3rem 0;
     height: 100%;
     width: 100%;
+
+    @include _1170 {
+      padding: 0;
+    }
   }
 
   &__content {
@@ -12,13 +20,13 @@
     justify-content: space-around;
     align-content: center;
     padding-bottom: 5rem;
+  }
 
-    & img {
-      max-width: 350px;
+  &__circle-image {
+    max-width: 350px;
 
-      @include _1170 {
-        max-width: 300px;
-      }
+    @include _1170 {
+      max-width: 300px;
     }
   }
 
@@ -42,6 +50,11 @@
       font-weight: 400;
       color: $white;
       text-align: justify;
+
+      @include _1170 {
+        font-size: 1.4rem;
+        line-height: 1.5;
+      }
     }
   }
 
@@ -62,7 +75,7 @@
     max-width: 350px;
     box-shadow: -1px 2px 15px 4px rgba(0, 0, 0, 0.75);
 
-    @include _768{
+    @include _768 {
       max-width: 400px;
     }
 
@@ -76,13 +89,20 @@
 
       & h3 {
         margin-left: 1.5rem;
+        font-size: 1.4rem;
       }
     }
 
     &__content {
       padding: 0 2rem;
-      line-height: 3;
+      font-size: 1.4rem;
+      line-height: 1.5;
       margin-bottom: 3rem;
+
+      @include _1170 {
+        font-size: 1.2rem;
+        line-height: 1.5;
+      }
     }
   }
 }
