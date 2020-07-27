@@ -12,6 +12,10 @@
       width: 200px;
       top: 0;
     }
+
+    @include _979 {
+      width: 150px;
+    }
   }
 
   &__header {
@@ -33,6 +37,10 @@
     @include _1170 {
       font-size: 2.4rem;
     }
+
+    @include _979 {
+      font-size: 2rem; 
+    }
   }
 
   &__title-note {
@@ -43,6 +51,9 @@
 
     @include _1170 {
       margin-top: 1rem;
+    }
+    @include _979 {
+      font-size: 1.2rem; 
     }
   }
 
@@ -101,6 +112,10 @@
     color: $white;
     align-self: center;
     margin-left: 2rem;
+
+    @include _979 {
+      font-size: 1.2rem;
+    }
   }
 
   &__toggle-button {
@@ -119,6 +134,13 @@
       width: 34px;
       height: 4px;
       background-color: $green-light;  
+
+      @include _979 {
+        margin-top: -1px;
+        margin-left: -13px;
+        width: 26px;
+        height: 2px;
+      }
   }
 
   &__toggle-icon::before {

@@ -26,6 +26,10 @@
     @include _1170 {
       width: 180px;
     }
+
+    @include _979 {
+      width: 150px;
+    }
   }
 
   &__link {
@@ -48,6 +52,10 @@
     @include _1170 {
       font-size: 2.85rem;
     }
+
+    @include _979 {
+      font-size: 2.35rem;
+    }
   }
 
   &__text {
@@ -57,10 +65,13 @@
     line-height: 2.5;
     margin-top: 2.1rem;
     max-width: 50%;
-    text-align: justify;
 
     @include _1170 {
       line-height: 1.5;
+    }
+
+    @include _979 {
+      font-size: 1.2rem;
     }
   }
 
@@ -73,6 +84,10 @@
 
     @include _1170 {
       width: 400px;
+    }
+
+    @include _979 {
+      width: 350px;
     }
   }
 }

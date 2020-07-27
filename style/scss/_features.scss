@@ -20,6 +20,10 @@
     justify-content: space-around;
     align-content: center;
     padding-bottom: 5rem;
+
+    @include _979 {
+      padding-bottom: 3.5rem; 
+    }
   }
 
   &__circle-image {
@@ -27,6 +31,10 @@
 
     @include _1170 {
       max-width: 300px;
+    }
+
+    @include _979 {
+      max-width: 230px;   
     }
   }
 
@@ -37,10 +45,18 @@
     padding-left: 6rem;
     width: 70%;
 
+    @include _979 {
+      padding-left: 4rem;   
+    }
+
     & h2 {
       font-size: 2.4rem;
       font-weight: 700;
       color: $white;
+
+      @include _979 {
+        font-size: 2rem;
+      }
     }
 
     & p {
@@ -49,11 +65,14 @@
       font-size: 1.4rem;
       font-weight: 400;
       color: $white;
-      text-align: justify;
 
       @include _1170 {
         font-size: 1.4rem;
         line-height: 1.5;
+      }
+
+      @include _979 {
+        font-size: 1.2rem; 
       }
     }
   }
@@ -75,6 +94,10 @@
     max-width: 350px;
     box-shadow: -1px 2px 15px 4px rgba(0, 0, 0, 0.75);
 
+    @include _979 {
+      max-width: 450px; 
+    }
+
     @include _768 {
       max-width: 400px;
     }
@@ -89,19 +112,18 @@
 
       & h3 {
         margin-left: 1.5rem;
-        font-size: 1.4rem;
+        font-size: 1.2rem;
       }
     }
 
     &__content {
       padding: 0 2rem;
       font-size: 1.4rem;
-      line-height: 1.5;
+      line-height: 2;
       margin-bottom: 3rem;
 
       @include _1170 {
-        font-size: 1.2rem;
-        line-height: 1.5;
+        font-size: 1rem;
       }
     }
   }
