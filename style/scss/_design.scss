@@ -13,6 +13,10 @@
   &__sreens {
     width: 60%;
 
+    @include _1440 {
+      transform: scale(0.9);
+    }
+
     @include _1170 {
       transform: scale(0.7);
     }
@@ -21,6 +25,12 @@
       transform: scale(0.8);
       width: 100%;    
       margin-left: -2rem;  
+    }
+
+    @include _768 {
+      transform: scale(0.65);
+      height: 800px;
+      margin-top: -10rem;
     }
   }
 

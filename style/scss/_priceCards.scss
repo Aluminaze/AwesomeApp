@@ -115,6 +115,12 @@
       transform: scale(0.8);
       margin-top: -2.5rem;
     }
+
+    @include _768 {
+      transform: scale(1);
+      flex-direction: column;
+      margin-top: 2rem;
+    }
   }
 }
 
@@ -125,6 +131,11 @@
   align-items: center;
   width: 30%;
   padding: 3.7rem 0;  
+
+  @include _768 {
+    width: 85%;
+    padding: 0 0 3rem 0;
+  }
 
   &__header {
     width: 100%;
@@ -145,6 +156,10 @@
     @include _979 {
       font-size: 2rem;
     }
+
+    @include _768 {
+      font-size: 1.6rem;
+    }
   }
 
   &__title-note,
@@ -156,6 +171,10 @@
 
     @include _979 {
       font-size: 1.2rem; 
+    }
+
+    @include _768 {
+      font-size: 1rem;
     }
   }
 
@@ -171,6 +190,10 @@
 
     @include _979 {
       font-size: 3.5rem; 
+    }
+
+    @include _768 {
+      font-size: 2.5rem;
     }
   }
 
@@ -188,10 +211,18 @@
     @include _979 {
       margin: 1rem 1.5rem;
     }
+
+    @include _768 {
+      font-size: 1rem;
+    }
   }
 
   &__link {
     margin-top: 3rem;
+
+    @include _768 {
+      margin-top: 1.2rem;
+    }
   }
 
   &__button {
@@ -212,4 +243,9 @@
   width: 40%;
   box-shadow: 0px 0px 14px 6px rgba(0, 0, 0, 0.75);
   z-index: 1;
+
+  @include _768 {
+    width: 100%;
+    margin: 2rem 0;
+  }
 }

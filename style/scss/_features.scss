@@ -93,13 +93,9 @@
     flex-direction: column;
     max-width: 350px;
     box-shadow: -1px 2px 15px 4px rgba(0, 0, 0, 0.75);
-
-    @include _979 {
-      max-width: 450px; 
-    }
-
+    
     @include _768 {
-      max-width: 400px;
+      max-width: 430px;
     }
 
     &__title {
