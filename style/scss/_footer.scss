@@ -109,7 +109,9 @@
     }
 
     & ul li a img {
-      width: 25px;
+      @include _979 {
+        width: 25px;
+      }
     }
   }
 

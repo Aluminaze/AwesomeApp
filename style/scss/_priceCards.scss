@@ -107,12 +107,13 @@
     margin-top: 4.5rem;
 
     @include _1170 {
-      margin-top: -7rem;
-      transform: scale(0.65);
+      margin-top: -3.5rem;
+      transform: scale(0.75);
     }
 
     @include _979 {
-      margin-top: -8rem;
+      transform: scale(0.8);
+      margin-top: -2.5rem;
     }
   }
 }

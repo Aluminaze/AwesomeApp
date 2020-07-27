@@ -1345,15 +1345,17 @@ h6 {
 
 @media (max-width: 1170px) {
   .price-cards__container {
-    margin-top: -7rem;
-    -webkit-transform: scale(0.65);
-            transform: scale(0.65);
+    margin-top: -3.5rem;
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75);
   }
 }
 
 @media (max-width: 979px) {
   .price-cards__container {
-    margin-top: -8rem;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    margin-top: -2.5rem;
   }
 }
 
@@ -1983,8 +1985,10 @@ h6 {
   margin-left: 0.6rem;
 }
 
-.footer__media-links ul li a img {
-  width: 25px;
+@media (max-width: 979px) {
+  .footer__media-links ul li a img {
+    width: 25px;
+  }
 }
 
 .footer__copyright {
