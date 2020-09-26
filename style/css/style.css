@@ -924,6 +924,14 @@ h6 {
   }
 }
 
+@media (max-width: 480px) {
+  .design__sreens {
+    -webkit-transform: scale(0.38);
+            transform: scale(0.38);
+    margin-left: -4.5rem;
+  }
+}
+
 .design__content {
   display: -webkit-box;
   display: -ms-flexbox;

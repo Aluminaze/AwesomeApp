@@ -39,6 +39,11 @@
       margin-top: -16.5rem;
       margin-left: -3.5rem;
     }
+
+    @include _480 {
+      transform: scale(0.38);
+      margin-left: -4.5rem;
+    }
   }
 
   &__content {
