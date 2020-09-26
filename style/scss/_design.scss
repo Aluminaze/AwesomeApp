@@ -100,6 +100,10 @@
     @include _600 {
       font-size: 1rem;
     }
+
+    @include _480 {
+      line-height: 1;
+    }
   }
 
   &__link {
