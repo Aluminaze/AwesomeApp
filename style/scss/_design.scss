@@ -6,7 +6,7 @@
     position: relative;
 
     @include _979 {
-      flex-direction: column;       
+      flex-direction: column;
     }
   }
 
@@ -20,17 +20,24 @@
     @include _1170 {
       transform: scale(0.7);
     }
-    
+
     @include _979 {
       transform: scale(0.8);
-      width: 100%;    
-      margin-left: -2rem;  
+      width: 100%;
+      margin-left: -2rem;
     }
 
     @include _768 {
       transform: scale(0.65);
       height: 800px;
       margin-top: -10rem;
+    }
+
+    @include _600 {
+      transform: scale(0.5);
+      height: 650px;
+      margin-top: -16.5rem;
+      margin-left: -3.5rem;
     }
   }
 
@@ -46,8 +53,8 @@
     }
 
     @include _979 {
-      width: 100%;    
-      padding-left: 0;   
+      width: 100%;
+      padding-left: 0;
     }
   }
 
