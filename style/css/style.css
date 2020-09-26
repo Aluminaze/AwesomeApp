@@ -1955,6 +1955,12 @@ h6 {
   }
 }
 
+@media (max-width: 480px) {
+  .questions__triangle-image {
+    width: 100px;
+  }
+}
+
 .questions__header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1983,7 +1989,7 @@ h6 {
 
 @media (max-width: 600px) {
   .questions__header {
-    padding-top: 2rem;
+    margin-top: 2rem;
   }
 }
 
@@ -2005,11 +2011,18 @@ h6 {
   }
 }
 
+@media (max-width: 480px) {
+  .questions__title {
+    font-size: 1.5rem;
+  }
+}
+
 .questions__title-note {
   font-size: 1.4rem;
   font-weight: 400;
   color: #66667e;
   margin-top: 2rem;
+  line-height: 1;
 }
 
 @media (max-width: 1170px) {
@@ -2080,13 +2093,13 @@ h6 {
   -ms-flex-line-pack: center;
       align-content: center;
   margin-bottom: 2rem;
-  -webkit-transition: all 0.6s ease-out;
-  transition: all 0.6s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 .questions__item:hover {
-  -webkit-transform: scale(1.03);
-          transform: scale(1.03);
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 @media (max-width: 1170px) {
@@ -2108,12 +2121,18 @@ h6 {
       -ms-flex-pack: justify;
           justify-content: space-between;
   max-width: 650px;
-  height: 90px;
+  min-height: 90px;
 }
 
 @media (max-width: 1170px) {
   .questions__body {
-    height: 70px;
+    min-height: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .questions__body {
+    min-height: 50px;
   }
 }
 
@@ -2124,7 +2143,9 @@ h6 {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  margin-left: 2rem;
+  margin: 2rem;
+  -ms-flex-preferred-size: 85%;
+      flex-basis: 85%;
 }
 
 @media (max-width: 979px) {
@@ -2139,17 +2160,19 @@ h6 {
   }
 }
 
-.questions__toggle-button {
-  position: relative;
-  width: 110px;
-  height: 100%;
-  background-color: #39394d;
+@media (max-width: 480px) {
+  .questions__question-text {
+    font-size: 1rem;
+    margin: 1rem;
+  }
 }
 
-@media (max-width: 768px) {
-  .questions__toggle-button {
-    width: 80px;
-  }
+.questions__toggle-button {
+  position: relative;
+  -ms-flex-preferred-size: 15%;
+      flex-basis: 15%;
+  min-height: 100%;
+  background-color: #39394d;
 }
 
 .questions__toggle-icon, .questions__toggle-icon::before {
@@ -2218,6 +2241,13 @@ h6 {
 @media (max-width: 768px) {
   .questions__answer-text {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .questions__answer-text {
+    line-height: 1;
+    padding: 1rem;
   }
 }
 
