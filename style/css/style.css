@@ -984,6 +984,12 @@ h6 {
   }
 }
 
+@media (max-width: 600px) {
+  .design__description {
+    font-size: 1rem;
+  }
+}
+
 .design__link {
   margin-top: 3.66rem;
 }

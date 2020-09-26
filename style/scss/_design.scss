@@ -86,6 +86,10 @@
     @include _979 {
       font-size: 1.2rem;
     }
+
+    @include _600 {
+      font-size: 1rem;
+    }
   }
 
   &__link {
