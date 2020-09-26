@@ -797,14 +797,20 @@ h6 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  max-width: 350px;
+  width: 350px;
   -webkit-box-shadow: -1px 2px 15px 4px rgba(0, 0, 0, 0.75);
           box-shadow: -1px 2px 15px 4px rgba(0, 0, 0, 0.75);
 }
 
 @media (max-width: 768px) {
   .features__box {
-    max-width: 430px;
+    width: 430px;
+  }
+}
+
+@media (max-width: 600px) {
+  .features__box {
+    width: 330px;
   }
 }
 

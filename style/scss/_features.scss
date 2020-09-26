@@ -115,11 +115,15 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    max-width: 350px;
+    width: 350px;
     box-shadow: -1px 2px 15px 4px rgba(0, 0, 0, 0.75);
 
     @include _768 {
-      max-width: 430px;
+      width: 430px;
+    }
+
+    @include _600 {
+      width: 330px;
     }
 
     &__title {
