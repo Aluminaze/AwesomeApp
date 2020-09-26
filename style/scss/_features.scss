@@ -113,7 +113,6 @@
 
       @include _480 {
         margin-top: 1rem;
-        line-height: 2;
       }
     }
   }
@@ -188,6 +187,7 @@
       @include _480 {
         padding: 0 1rem;
         margin-bottom: 2rem;
+        line-height: 1.5;
       }
     }
   }
