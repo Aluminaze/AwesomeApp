@@ -115,6 +115,10 @@
 
     &__link {
       margin: 2rem 0rem;
+
+      @include _480 {
+        margin: 1rem 0;
+      }
     }
 
     & a {

@@ -385,6 +385,12 @@ h6 {
   margin: 2rem 0rem;
 }
 
+@media (max-width: 480px) {
+  .mobile-nav-menu__link {
+    margin: 1rem 0;
+  }
+}
+
 .mobile-nav-menu.active {
   right: 0;
 }
