@@ -23,7 +23,7 @@
     position: relative;
 
     @include _768 {
-      height: 130px
+      height: 130px;
     }
   }
 
@@ -95,6 +95,10 @@
 
     @include _768 {
       max-width: 70%;
+    }
+
+    @include _600 {
+      font-size: 1rem;
     }
   }
 

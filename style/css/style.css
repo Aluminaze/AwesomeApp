@@ -487,6 +487,12 @@ h6 {
   }
 }
 
+@media (max-width: 600px) {
+  .intro__text {
+    font-size: 1rem;
+  }
+}
+
 .intro__background-image {
   position: absolute;
   right: 0;
