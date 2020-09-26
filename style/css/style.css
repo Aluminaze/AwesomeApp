@@ -2498,6 +2498,12 @@ h6 {
   }
 }
 
+@media (max-width: 480px) {
+  .footer__about {
+    line-height: 1;
+  }
+}
+
 .footer__links {
   width: 15%;
 }
@@ -2507,6 +2513,12 @@ h6 {
     width: 100%;
     text-align: center;
     padding: 1rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer__links {
+    margin-top: 2rem;
   }
 }
 
@@ -2528,7 +2540,7 @@ h6 {
 
 @media (max-width: 768px) {
   .footer__links ul {
-    margin-top: .5rem;
+    margin-top: 0.5rem;
   }
 }
 

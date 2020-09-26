@@ -33,6 +33,10 @@
       width: 100%;
       padding-right: 0;
     }
+
+    @include _480 {
+      line-height: 1;
+    }
   }
 
   &__links {
@@ -42,6 +46,9 @@
       width: 100%;
       text-align: center;
       padding: 1rem 0;
+    }
+    @include _480 {
+      margin-top: 2rem;
     }
 
     & h2 {
@@ -58,7 +65,7 @@
       margin-top: 1rem;
 
       @include _768 {
-        margin-top: .5rem;
+        margin-top: 0.5rem;
       }
     }
 
