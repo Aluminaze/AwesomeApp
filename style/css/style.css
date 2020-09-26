@@ -1046,6 +1046,7 @@ h6 {
     -webkit-transform: scale(0.38);
             transform: scale(0.38);
     margin-left: -4.5rem;
+    height: 550px;
   }
 }
 
@@ -1095,6 +1096,12 @@ h6 {
   }
 }
 
+@media (max-width: 480px) {
+  .design__title {
+    font-size: 1.5rem;
+  }
+}
+
 .design__description {
   font-size: 1.4rem;
   font-weight: 400;
@@ -1123,6 +1130,12 @@ h6 {
 
 .design__link {
   margin-top: 3.66rem;
+}
+
+@media (max-width: 480px) {
+  .design__link {
+    margin-top: 2.5rem;
+  }
 }
 
 .design__button-features {

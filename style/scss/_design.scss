@@ -43,6 +43,7 @@
     @include _480 {
       transform: scale(0.38);
       margin-left: -4.5rem;
+      height: 550px;
     }
   }
 
@@ -75,6 +76,10 @@
     @include _979 {
       font-size: 2rem;
     }
+
+    @include _480 {
+      font-size: 1.5rem;
+    }
   }
 
   &__description {
@@ -99,6 +104,10 @@
 
   &__link {
     margin-top: 3.66rem;
+
+    @include _480 {
+      margin-top: 2.5rem;
+    }
   }
 
   &__button-features {
