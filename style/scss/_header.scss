@@ -19,6 +19,9 @@
       @include _979 {
         width: 4.5rem;
       }
+      @include _480 {
+        width: 3rem;
+      }
     }
     &-name {
       margin-left: 0.7rem;

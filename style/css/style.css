@@ -277,6 +277,12 @@ h6 {
   }
 }
 
+@media (max-width: 480px) {
+  .header__company-icon {
+    width: 3rem;
+  }
+}
+
 .header__company-name {
   margin-left: 0.7rem;
   display: inline-block;
