@@ -48,6 +48,10 @@
     @include _600 {
       width: 170px;
     }
+
+    @include _480 {
+      width: 100px;
+    }
   }
 
   &__text {
@@ -69,6 +73,10 @@
       width: 100%;
     }
 
+    @include _480 {
+      padding: 0;
+    }
+
     & h2 {
       font-size: 2.4rem;
       font-weight: 700;
@@ -76,6 +84,10 @@
 
       @include _979 {
         font-size: 2rem;
+      }
+
+      @include _480 {
+        font-size: 1.5rem;
       }
     }
 
@@ -98,11 +110,19 @@
       @include _600 {
         font-size: 1rem;
       }
+
+      @include _480 {
+        margin-top: 1rem;
+      }
     }
   }
 
   &__link {
     margin-top: 3.66rem;
+
+    @include _480 {
+      margin-top: 2.5rem;
+    }
   }
 
   &__slide-block {
