@@ -207,6 +207,14 @@ h6 {
 }
 
 @media (max-width: 480px) {
+  .btn-withColor, .intro__link-button--color, .design__button-features, .little-card__button,
+  .big-card__button, .get-start__link-button {
+    font-size: 1rem;
+    padding: 0.7rem 2rem;
+  }
+}
+
+@media (max-width: 480px) {
   .btn-swiper,
   .btn-swiper {
     display: none;
@@ -511,6 +519,7 @@ h6 {
 @media (max-width: 480px) {
   .intro__title {
     font-size: 2rem;
+    margin-top: 0;
   }
 }
 
@@ -551,6 +560,7 @@ h6 {
   .intro__text {
     width: 100%;
     margin-top: 1.5rem;
+    line-height: 1.5;
   }
 }
 
@@ -864,7 +874,6 @@ h6 {
 @media (max-width: 480px) {
   .features__text p {
     margin-top: 1rem;
-    line-height: 2;
   }
 }
 
@@ -968,6 +977,7 @@ h6 {
   .features__box__content {
     padding: 0 1rem;
     margin-bottom: 2rem;
+    line-height: 1.5;
   }
 }
 
@@ -1125,6 +1135,12 @@ h6 {
 @media (max-width: 600px) {
   .design__description {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .design__description {
+    line-height: 1;
   }
 }
 
@@ -1459,32 +1475,34 @@ h6 {
 }
 
 .price-cards__inner {
-  position: relative;
+  margin-top: 5rem;
+}
+
+@media (max-width: 480px) {
+  .price-cards {
+    margin-top: 2rem;
+  }
 }
 
 .price-cards__rectangular-image {
-  position: absolute;
-  top: 140px;
-  right: 0;
   width: 350px;
 }
 
 @media (max-width: 1170px) {
   .price-cards__rectangular-image {
-    top: 0;
     width: 200px;
-  }
-}
-
-@media (max-width: 979px) {
-  .price-cards__rectangular-image {
-    top: 3rem;
   }
 }
 
 @media (max-width: 600px) {
   .price-cards__rectangular-image {
     width: 170px;
+  }
+}
+
+@media (max-width: 480px) {
+  .price-cards__rectangular-image {
+    width: 100px;
   }
 }
 
@@ -1517,6 +1535,12 @@ h6 {
   }
 }
 
+@media (max-width: 480px) {
+  .price-cards__header {
+    padding-top: 2rem;
+  }
+}
+
 .price-cards__title {
   font-size: 2.6rem;
   font-weight: 700;
@@ -1535,11 +1559,18 @@ h6 {
   }
 }
 
+@media (max-width: 480px) {
+  .price-cards__title {
+    font-size: 1.5rem;
+  }
+}
+
 .price-cards__title-note {
   font-size: 1.4rem;
   font-weight: 300;
   color: #66667e;
   margin-top: 2rem;
+  line-height: 1.5;
 }
 
 @media (max-width: 1170px) {
@@ -1557,6 +1588,7 @@ h6 {
 @media (max-width: 600px) {
   .price-cards__title-note {
     font-size: 1rem;
+    line-height: 1;
   }
 }
 
@@ -1588,6 +1620,23 @@ h6 {
   }
 }
 
+@media (max-width: 480px) {
+  .price-cards__switcher {
+    height: 30px;
+  }
+}
+
+.price-cards__switcher-separator {
+  height: 30px;
+  border-left: 1px solid #ffffff;
+}
+
+@media (max-width: 480px) {
+  .price-cards__switcher-separator {
+    height: 17px;
+  }
+}
+
 .price-cards__switcher-btn {
   font-size: 1.3rem;
   font-weight: 700;
@@ -1600,10 +1649,10 @@ h6 {
   }
 }
 
-.price-cards__switcher--yearly::before {
-  content: "";
-  border-left: 1px solid #ffffff;
-  margin-right: 3.6rem;
+@media (max-width: 480px) {
+  .price-cards__switcher-btn {
+    font-size: 1rem;
+  }
 }
 
 .price-cards__container {
@@ -1675,6 +1724,13 @@ h6 {
   }
 }
 
+@media (max-width: 480px) {
+  .little-card,
+  .big-card {
+    padding: 0 0 2rem 0;
+  }
+}
+
 .little-card__header,
 .big-card__header {
   width: 100%;
@@ -1708,6 +1764,13 @@ h6 {
   .little-card__title,
   .big-card__title {
     font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .little-card__title,
+  .big-card__title {
+    font-size: 1.35rem;
   }
 }
 
@@ -1765,6 +1828,13 @@ h6 {
   }
 }
 
+@media (max-width: 480px) {
+  .little-card__price,
+  .big-card__price {
+    font-size: 1.5rem;
+  }
+}
+
 .little-card__description,
 .big-card__description {
   font-size: 1.3rem;
@@ -1802,6 +1872,13 @@ h6 {
   }
 }
 
+@media (max-width: 480px) {
+  .little-card__description,
+  .big-card__description {
+    line-height: 1.5;
+  }
+}
+
 .little-card__link,
 .big-card__link {
   margin-top: 3rem;
@@ -1835,6 +1912,12 @@ h6 {
   .big-card {
     width: 100%;
     margin: 2rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .big-card {
+    margin: 1rem 0;
   }
 }
 

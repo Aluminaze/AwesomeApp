@@ -1,25 +1,28 @@
 .price-cards {
   &__inner {
-    position: relative;
+    margin-top: 5rem;
+  }
+
+  @include _480 {
+    margin-top: 2rem;
   }
 
   &__rectangular-image {
-    position: absolute;
-    top: 140px;
-    right: 0;
     width: 350px;
 
     @include _1170 {
-      top: 0;
       width: 200px;
     }
 
     @include _979 {
-      top: 3rem;
     }
 
     @include _600 {
       width: 170px;
+    }
+
+    @include _480 {
+      width: 100px;
     }
   }
 
@@ -37,6 +40,10 @@
     @include _979 {
       padding-top: 16rem;
     }
+
+    @include _480 {
+      padding-top: 2rem;
+    }
   }
 
   &__title {
@@ -51,6 +58,10 @@
     @include _979 {
       font-size: 2rem;
     }
+
+    @include _480 {
+      font-size: 1.5rem;
+    }
   }
 
   &__title-note {
@@ -58,6 +69,7 @@
     font-weight: 300;
     color: $black-light;
     margin-top: 2rem;
+    line-height: 1.5;
 
     @include _1170 {
       margin-top: 1rem;
@@ -69,6 +81,7 @@
 
     @include _600 {
       font-size: 1rem;
+      line-height: 1;
     }
   }
 
@@ -89,6 +102,19 @@
       height: 45px;
     }
 
+    @include _480 {
+      height: 30px;
+    }
+
+    &-separator {
+      height: 30px;
+      border-left: 1px solid $white;
+
+      @include _480 {
+        height: 17px;
+      }
+    }
+
     &-btn {
       font-size: 1.3rem;
       font-weight: 700;
@@ -97,12 +123,10 @@
       @include _979 {
         font-size: 1.2rem;
       }
-    }
 
-    &--yearly::before {
-      content: "";
-      border-left: 1px solid $white;
-      margin-right: 3.6rem;
+      @include _480 {
+        font-size: 1rem;
+      }
     }
   }
 
@@ -144,6 +168,10 @@
     padding: 0 0 3rem 0;
   }
 
+  @include _480 {
+    padding: 0 0 2rem 0;
+  }
+
   &__header {
     width: 100%;
     background-color: $black-middle;
@@ -166,6 +194,10 @@
 
     @include _768 {
       font-size: 1.6rem;
+    }
+
+    @include _480 {
+      font-size: 1.35rem;
     }
   }
 
@@ -202,6 +234,10 @@
     @include _768 {
       font-size: 2.5rem;
     }
+
+    @include _480 {
+      font-size: 1.5rem;
+    }
   }
 
   &__description {
@@ -225,6 +261,10 @@
 
     @include _600 {
       margin: 0.5rem 1.5rem;
+    }
+
+    @include _480 {
+      line-height: 1.5;
     }
   }
 
@@ -258,5 +298,9 @@
   @include _768 {
     width: 100%;
     margin: 2rem 0;
+  }
+
+  @include _480 {
+    margin: 1rem 0;
   }
 }
