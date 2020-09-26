@@ -43,7 +43,7 @@
     }
 
     @include _979 {
-      font-size: 2rem; 
+      font-size: 2rem;
     }
   }
 
@@ -57,7 +57,7 @@
       margin-top: 1rem;
     }
     @include _979 {
-      font-size: 1.2rem; 
+      font-size: 1.2rem;
     }
   }
 
@@ -131,31 +131,36 @@
     width: 110px;
     height: 100%;
     background-color: $black-middle;
+
+    @include _768 {
+      width: 80px;
+    }
   }
 
-  &__toggle-icon, &__toggle-icon::before {
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      margin-top: -2px;
-      margin-left: -17px;
-      width: 34px;
-      height: 4px;
-      background-color: $green-light;  
+  &__toggle-icon,
+  &__toggle-icon::before {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -2px;
+    margin-left: -17px;
+    width: 34px;
+    height: 4px;
+    background-color: $green-light;
 
-      @include _979 {
-        margin-top: -1px;
-        margin-left: -13px;
-        width: 26px;
-        height: 2px;
-      }
+    @include _979 {
+      margin-top: -1px;
+      margin-left: -13px;
+      width: 26px;
+      height: 2px;
+    }
   }
 
   &__toggle-icon::before {
-    content: '';
+    content: "";
     display: block;
     transform: rotate(90deg);
-    transition: all 0.5s ease-out;    
+    transition: all 0.5s ease-out;
   }
 
   &__toggle-icon.open::before {
@@ -163,7 +168,7 @@
   }
 
   &__answer {
-    max-width: 650px;    
+    max-width: 650px;
     height: auto;
     max-height: 0px;
     overflow: hidden;

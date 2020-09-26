@@ -1823,6 +1823,12 @@ h6 {
   background-color: #39394d;
 }
 
+@media (max-width: 768px) {
+  .questions__toggle-button {
+    width: 80px;
+  }
+}
+
 .questions__toggle-icon, .questions__toggle-icon::before {
   position: absolute;
   left: 50%;
@@ -1844,7 +1850,7 @@ h6 {
 }
 
 .questions__toggle-icon::before {
-  content: '';
+  content: "";
   display: block;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
