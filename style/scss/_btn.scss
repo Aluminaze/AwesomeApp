@@ -113,3 +113,10 @@
     padding: 1.15rem 2.5rem;
   }
 }
+
+.btn-swiper,
+.btn-swiper {
+  @include _480 {
+    display: none;
+  }
+}
