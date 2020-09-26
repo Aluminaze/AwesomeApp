@@ -22,7 +22,7 @@
     }
 
     @include _979 {
-      width: 150px;      
+      width: 150px;
     }
   }
 
@@ -30,7 +30,7 @@
     width: 70%;
 
     @include _979 {
-      width: 80%; 
+      width: 80%;
     }
 
     & h2 {
@@ -54,6 +54,10 @@
 
       @include _979 {
         font-size: 1.2rem;
+      }
+
+      @include _600 {
+        font-size: 1rem;
       }
     }
   }
