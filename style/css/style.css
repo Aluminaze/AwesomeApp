@@ -719,6 +719,12 @@ h6 {
   }
 }
 
+@media (max-width: 480px) {
+  .works__block {
+    margin-top: 0;
+  }
+}
+
 .works__block__image {
   height: 210px;
   position: relative;

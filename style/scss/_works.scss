@@ -88,6 +88,11 @@
     @include _1170 {
       margin-top: 2rem;
     }
+
+    @include _480 {
+      margin-top: 0;
+    }
+
     &__image {
       height: 210px;
       position: relative;
