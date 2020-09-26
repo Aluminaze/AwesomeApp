@@ -113,6 +113,7 @@
 
       @include _480 {
         margin-top: 1rem;
+        line-height: 2;
       }
     }
   }
@@ -146,6 +147,10 @@
       width: 330px;
     }
 
+    @include _480 {
+      width: 300px;
+    }
+
     &__title {
       display: flex;
       flex-direction: row;
@@ -153,6 +158,16 @@
       padding: 1rem 2rem;
       background-color: #39394d;
       margin: 4.26rem 0 2rem 0;
+
+      @include _480 {
+        margin: 2rem 0 1rem 0;
+      }
+
+      & img {
+        @include _480 {
+          width: 30px;
+        }
+      }
 
       & h3 {
         margin-left: 1.5rem;
@@ -168,6 +183,11 @@
 
       @include _1170 {
         font-size: 1rem;
+      }
+
+      @include _480 {
+        padding: 0 1rem;
+        margin-bottom: 2rem;
       }
     }
   }
