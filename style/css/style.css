@@ -1335,7 +1335,12 @@ h6 {
 @media (max-width: 979px) {
   .price-cards__rectangular-image {
     top: 3rem;
-    word-wrap: 150px;
+  }
+}
+
+@media (max-width: 600px) {
+  .price-cards__rectangular-image {
+    width: 170px;
   }
 }
 
@@ -1402,6 +1407,12 @@ h6 {
 @media (max-width: 979px) {
   .price-cards__title-note {
     font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .price-cards__title-note {
+    font-size: 1rem;
   }
 }
 
@@ -1637,6 +1648,13 @@ h6 {
   .little-card__description,
   .big-card__description {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .little-card__description,
+  .big-card__description {
+    margin: 0.5rem 1.5rem;
   }
 }
 
