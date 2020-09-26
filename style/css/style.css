@@ -2295,6 +2295,12 @@ h6 {
   }
 }
 
+@media (max-width: 480px) {
+  .get-start {
+    margin-top: 0;
+  }
+}
+
 .get-start__inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2369,6 +2375,12 @@ h6 {
   }
 }
 
+@media (max-width: 480px) {
+  .get-start__title {
+    font-size: 1.5rem;
+  }
+}
+
 .get-start__title-note {
   font-size: 1.5rem;
   font-weight: 300;
@@ -2392,6 +2404,12 @@ h6 {
 @media (max-width: 600px) {
   .get-start__title-note {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .get-start__title-note {
+    line-height: 1rem;
   }
 }
 
