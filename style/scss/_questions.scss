@@ -1,24 +1,27 @@
 .questions {
   &__inner {
-    position: relative;
+    margin-top: 12rem;
+
+    @include _1170 {
+      margin-top: 8rem;
+    }
+
+    @include _979 {
+      margin-top: 6rem;
+    }
   }
 
   &__triangle-image {
-    position: absolute;
-    left: 0;
-    top: 5rem;
-
     @include _1170 {
       width: 200px;
-      top: 0;
     }
 
     @include _979 {
       width: 150px;
     }
 
-    @include _768 {
-      top: 2rem;
+    @include _600 {
+      width: 130px;
     }
   }
 
@@ -26,10 +29,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 27rem;
+    margin-top: 5rem;
 
     @include _1170 {
-      padding-top: 16rem;
+      margin-top: 4rem;
+    }
+
+    @include _979 {
+      margin-top: 3rem;
+    }
+
+    @include _600 {
+      padding-top: 2rem;
     }
   }
 
@@ -58,6 +69,9 @@
     }
     @include _979 {
       font-size: 1.2rem;
+    }
+    @include _600 {
+      font-size: 1rem;
     }
   }
 
