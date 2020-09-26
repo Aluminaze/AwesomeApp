@@ -662,18 +662,24 @@ h6 {
 }
 
 .features__circle-image {
-  max-width: 350px;
+  width: 350px;
 }
 
 @media (max-width: 1170px) {
   .features__circle-image {
-    max-width: 300px;
+    width: 300px;
   }
 }
 
 @media (max-width: 979px) {
   .features__circle-image {
-    max-width: 230px;
+    width: 230px;
+  }
+}
+
+@media (max-width: 768px) {
+  .features__circle-image {
+    width: 200px;
   }
 }
 
@@ -695,6 +701,12 @@ h6 {
 @media (max-width: 979px) {
   .features__text {
     padding-left: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .features__text {
+    padding-left: 2rem;
   }
 }
 
@@ -2222,3 +2234,4 @@ body {
   color: #ffffff;
   background-color: #21212e;
 }
+/*# sourceMappingURL=style.css.map */
