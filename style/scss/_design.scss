@@ -16,30 +16,25 @@
     @include _1440 {
       transform: scale(0.9);
     }
-
     @include _1170 {
       transform: scale(0.7);
     }
-
     @include _979 {
       transform: scale(0.8);
       width: 100%;
       margin-left: -2rem;
     }
-
     @include _768 {
       transform: scale(0.65);
       height: 800px;
       margin-top: -10rem;
     }
-
     @include _600 {
       transform: scale(0.5);
       height: 650px;
       margin-top: -16.5rem;
       margin-left: -3.5rem;
     }
-
     @include _480 {
       transform: scale(0.38);
       margin-left: -4.5rem;
@@ -57,7 +52,6 @@
     @include _1170 {
       padding-left: 4.5rem;
     }
-
     @include _979 {
       width: 100%;
       padding-left: 0;
@@ -72,11 +66,9 @@
     @include _1170 {
       font-size: 2.4rem;
     }
-
     @include _979 {
       font-size: 2rem;
     }
-
     @include _480 {
       font-size: 1.5rem;
     }
@@ -92,15 +84,12 @@
     @include _1170 {
       margin-top: 1rem;
     }
-
     @include _979 {
       font-size: 1.2rem;
     }
-
     @include _600 {
       font-size: 1rem;
     }
-
     @include _480 {
       line-height: 1;
     }

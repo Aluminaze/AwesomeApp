@@ -14,7 +14,6 @@
       justify-content: center;
       align-items: center;
     }
-
     @include _480 {
       padding: 1rem 0 0 0;
     }
@@ -40,15 +39,12 @@
     @include _1170 {
       width: 180px;
     }
-
     @include _979 {
       width: 150px;
     }
-
     @include _768 {
       width: 130px;
     }
-
     @include _480 {
       width: 100px;
     }
@@ -89,15 +85,12 @@
     @include _1170 {
       font-size: 2.85rem;
     }
-
     @include _979 {
       font-size: 2.35rem;
     }
-
     @include _768 {
       margin-top: 2rem;
     }
-
     @include _480 {
       font-size: 2rem;
       margin-top: 0;
@@ -115,19 +108,15 @@
     @include _1170 {
       line-height: 1.5;
     }
-
     @include _979 {
       font-size: 1.2rem;
     }
-
     @include _768 {
       width: 70%;
     }
-
     @include _600 {
       font-size: 1rem;
     }
-
     @include _480 {
       width: 100%;
       margin-top: 1.5rem;
@@ -145,11 +134,9 @@
     @include _1170 {
       width: 400px;
     }
-
     @include _979 {
       width: 350px;
     }
-
     @include _768 {
       display: none;
     }

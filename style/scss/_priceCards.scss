@@ -13,14 +13,11 @@
     @include _1170 {
       width: 200px;
     }
-
     @include _979 {
     }
-
     @include _600 {
       width: 170px;
     }
-
     @include _480 {
       width: 100px;
     }
@@ -36,11 +33,9 @@
     @include _1170 {
       padding-top: 14rem;
     }
-
     @include _979 {
       padding-top: 16rem;
     }
-
     @include _480 {
       padding-top: 2rem;
     }
@@ -54,11 +49,9 @@
     @include _1170 {
       font-size: 2.4rem;
     }
-
     @include _979 {
       font-size: 2rem;
     }
-
     @include _480 {
       font-size: 1.5rem;
     }
@@ -74,11 +67,9 @@
     @include _1170 {
       margin-top: 1rem;
     }
-
     @include _979 {
       font-size: 1.2rem;
     }
-
     @include _600 {
       font-size: 1rem;
       line-height: 1;
@@ -101,7 +92,6 @@
       margin-top: 1rem;
       height: 45px;
     }
-
     @include _480 {
       height: 30px;
     }
@@ -123,7 +113,6 @@
       @include _979 {
         font-size: 1.2rem;
       }
-
       @include _480 {
         font-size: 1rem;
       }
@@ -141,12 +130,10 @@
       margin-top: -3.5rem;
       transform: scale(0.75);
     }
-
     @include _979 {
       transform: scale(0.8);
       margin-top: -2.5rem;
     }
-
     @include _768 {
       transform: scale(1);
       flex-direction: column;
@@ -167,7 +154,6 @@
     width: 85%;
     padding: 0 0 3rem 0;
   }
-
   @include _480 {
     padding: 0 0 2rem 0;
   }
@@ -187,15 +173,12 @@
     @include _1170 {
       font-size: 2.4rem;
     }
-
     @include _979 {
       font-size: 2rem;
     }
-
     @include _768 {
       font-size: 1.6rem;
     }
-
     @include _480 {
       font-size: 1.35rem;
     }
@@ -211,7 +194,6 @@
     @include _979 {
       font-size: 1.2rem;
     }
-
     @include _768 {
       font-size: 1rem;
     }
@@ -226,15 +208,12 @@
     @include _1170 {
       font-size: 4.2rem;
     }
-
     @include _979 {
       font-size: 3.5rem;
     }
-
     @include _768 {
       font-size: 2.5rem;
     }
-
     @include _480 {
       font-size: 1.5rem;
     }
@@ -250,19 +229,15 @@
     @include _1170 {
       margin: 1.2rem 2.5rem;
     }
-
     @include _979 {
       margin: 1rem 1.5rem;
     }
-
     @include _768 {
       font-size: 1rem;
     }
-
     @include _600 {
       margin: 0.5rem 1.5rem;
     }
-
     @include _480 {
       line-height: 1.5;
     }
@@ -299,7 +274,6 @@
     width: 100%;
     margin: 2rem 0;
   }
-
   @include _480 {
     margin: 1rem 0;
   }

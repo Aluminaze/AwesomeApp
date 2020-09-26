@@ -5,7 +5,6 @@
     @include _1170 {
       margin-top: 8rem;
     }
-
     @include _979 {
       margin-top: 6rem;
     }
@@ -15,15 +14,12 @@
     @include _1170 {
       width: 200px;
     }
-
     @include _979 {
       width: 150px;
     }
-
     @include _600 {
       width: 130px;
     }
-
     @include _480 {
       width: 100px;
     }
@@ -38,11 +34,9 @@
     @include _1170 {
       margin-top: 4rem;
     }
-
     @include _979 {
       margin-top: 3rem;
     }
-
     @include _600 {
       margin-top: 2rem;
     }
@@ -56,11 +50,9 @@
     @include _1170 {
       font-size: 2.4rem;
     }
-
     @include _979 {
       font-size: 2rem;
     }
-
     @include _480 {
       font-size: 1.5rem;
     }
@@ -96,7 +88,6 @@
       justify-content: center;
       align-items: center;
     }
-
     @include _1170 {
       margin-top: 2.7rem;
     }
@@ -131,7 +122,6 @@
     @include _1170 {
       min-height: 70px;
     }
-
     @include _480 {
       min-height: 50px;
     }
@@ -148,11 +138,9 @@
     @include _979 {
       font-size: 1.2rem;
     }
-
     @include _768 {
       font-size: 1.1rem;
     }
-
     @include _480 {
       font-size: 1rem;
       margin: 1rem;
@@ -219,11 +207,9 @@
         padding: 1rem 2rem;
         line-height: 1.5;
       }
-
       @include _768 {
         font-size: 1rem;
       }
-
       @include _480 {
         line-height: 1;
         padding: 1rem;

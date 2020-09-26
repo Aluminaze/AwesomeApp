@@ -24,7 +24,6 @@
     @include _979 {
       padding-bottom: 3.5rem;
     }
-
     @include _600 {
       flex-direction: column;
     }
@@ -36,19 +35,15 @@
     @include _1170 {
       width: 300px;
     }
-
     @include _979 {
       width: 230px;
     }
-
     @include _768 {
       width: 200px;
     }
-
     @include _600 {
       width: 170px;
     }
-
     @include _480 {
       width: 100px;
     }
@@ -64,15 +59,12 @@
     @include _979 {
       padding-left: 4rem;
     }
-
     @include _768 {
       padding-left: 2rem;
     }
-
     @include _600 {
       width: 100%;
     }
-
     @include _480 {
       padding: 0;
     }
@@ -85,7 +77,6 @@
       @include _979 {
         font-size: 2rem;
       }
-
       @include _480 {
         font-size: 1.5rem;
       }
@@ -102,15 +93,12 @@
         font-size: 1.4rem;
         line-height: 1.5;
       }
-
       @include _979 {
         font-size: 1.2rem;
       }
-
       @include _600 {
         font-size: 1rem;
       }
-
       @include _480 {
         margin-top: 1rem;
       }
@@ -141,11 +129,9 @@
     @include _768 {
       width: 430px;
     }
-
     @include _600 {
       width: 330px;
     }
-
     @include _480 {
       width: 300px;
     }
@@ -183,7 +169,6 @@
       @include _1170 {
         font-size: 1rem;
       }
-
       @include _480 {
         padding: 0 1rem;
         margin-bottom: 2rem;
