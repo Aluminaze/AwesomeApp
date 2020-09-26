@@ -12,6 +12,10 @@
     @include _979 {
       padding-right: 0;
     }
+
+    @include _480 {
+      flex-direction: column-reverse;
+    }
   }
 
   &__triangle-image {
@@ -24,6 +28,10 @@
     @include _979 {
       width: 150px;
     }
+
+    @include _480 {
+      width: 100px;
+    }
   }
 
   &__text {
@@ -33,6 +41,10 @@
       width: 80%;
     }
 
+    @include _480 {
+      width: 100%;
+    }
+
     & h2 {
       font-size: 2.4rem;
       font-weight: 700;
@@ -40,6 +52,10 @@
 
       @include _979 {
         font-size: 2rem;
+      }
+
+      @include _480 {
+        font-size: 1.5rem;
       }
     }
 
@@ -58,6 +74,10 @@
 
       @include _600 {
         font-size: 1rem;
+      }
+
+      @include _480 {
+        margin-top: 1rem;
       }
     }
   }
