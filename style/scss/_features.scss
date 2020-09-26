@@ -24,6 +24,10 @@
     @include _979 {
       padding-bottom: 3.5rem;
     }
+
+    @include _600 {
+      flex-direction: column;
+    }
   }
 
   &__circle-image {
@@ -40,6 +44,10 @@
     @include _768 {
       width: 200px;
     }
+
+    @include _600 {
+      width: 170px;
+    }
   }
 
   &__text {
@@ -55,6 +63,10 @@
 
     @include _768 {
       padding-left: 2rem;
+    }
+
+    @include _600 {
+      width: 100%;
     }
 
     & h2 {
@@ -81,6 +93,10 @@
 
       @include _979 {
         font-size: 1.2rem;
+      }
+
+      @include _600 {
+        font-size: 1rem;
       }
     }
   }
