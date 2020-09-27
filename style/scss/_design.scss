@@ -10,7 +10,7 @@
     }
   }
 
-  &__sreens {
+  &__screens {
     width: 60%;
 
     @include _1440 {
@@ -39,6 +39,11 @@
       transform: scale(0.38);
       margin-left: -4.5rem;
       height: 550px;
+    }
+
+    @include _350 {
+      transform: scale(0.35);
+      height: 500px;
     }
   }
 
@@ -109,7 +114,7 @@
   }
 }
 
-.main-sreen {
+.main-screen {
   position: relative;
   width: 550px;
   margin: 0 auto;

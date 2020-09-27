@@ -1,6 +1,10 @@
 .features {
   margin: 1rem 0;
 
+  @include _768 {
+    margin: 0;
+  }
+
   @include _1170 {
     margin: 1rem 0 0 0;
   }
