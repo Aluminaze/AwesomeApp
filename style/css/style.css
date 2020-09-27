@@ -458,7 +458,13 @@ h6 {
 
 .intro {
   width: 100%;
-  min-height: 87vh;
+  min-height: 100vh;
+}
+
+@media (max-width: 480px) {
+  .intro {
+    min-height: auto;
+  }
 }
 
 .intro__inner {

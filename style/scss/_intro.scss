@@ -1,6 +1,10 @@
 .intro {
   width: 100%;
-  min-height: 87vh;
+  min-height: 100vh;
+
+  @include _480 {
+    min-height: auto;
+  }
 
   &__inner {
     width: 100%;
