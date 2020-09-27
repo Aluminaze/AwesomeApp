@@ -91,6 +91,9 @@
     @include _1170 {
       margin-top: 2.7rem;
     }
+    @include _350 {
+      margin-top: 1.5rem;
+    }
   }
 
   &__item {
@@ -170,6 +173,10 @@
       margin-left: -13px;
       width: 26px;
       height: 2px;
+    }
+    @include _350 {
+      margin-left: -8px;
+      width: 16px;
     }
   }
 
