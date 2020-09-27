@@ -2533,12 +2533,6 @@ h6 {
   }
 }
 
-@media (max-width: 480px) {
-  .get-start__title-note {
-    line-height: 1rem;
-  }
-}
-
 .get-start__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2569,6 +2563,12 @@ h6 {
 @media (max-width: 768px) {
   .footer {
     margin: 3rem 0 5rem 0;
+  }
+}
+
+@media (max-width: 350px) {
+  .footer {
+    margin-bottom: 2rem;
   }
 }
 

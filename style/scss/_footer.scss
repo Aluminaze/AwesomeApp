@@ -4,6 +4,9 @@
   @include _768 {
     margin: 3rem 0 5rem 0;
   }
+  @include _350 {
+    margin-bottom: 2rem;
+  }
 
   &__inner {
     display: flex;
