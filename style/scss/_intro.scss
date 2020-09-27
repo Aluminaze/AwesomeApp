@@ -27,6 +27,10 @@
     @include _768 {
       height: 130px;
     }
+    @include _350 {
+      height: 100px;
+      margin-top: 3.5rem;
+    }
   }
 
   &__triangle-image {
@@ -47,6 +51,9 @@
     }
     @include _480 {
       width: 100px;
+    }
+    @include _350 {
+      width: 80px;
     }
   }
 

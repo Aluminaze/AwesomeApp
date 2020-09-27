@@ -504,6 +504,13 @@ h6 {
   }
 }
 
+@media (max-width: 350px) {
+  .intro__block {
+    height: 100px;
+    margin-top: 3.5rem;
+  }
+}
+
 .intro__triangle-image {
   position: absolute;
   left: 37%;
@@ -533,6 +540,12 @@ h6 {
 @media (max-width: 480px) {
   .intro__triangle-image {
     width: 100px;
+  }
+}
+
+@media (max-width: 350px) {
+  .intro__triangle-image {
+    width: 80px;
   }
 }
 
