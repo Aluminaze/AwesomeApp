@@ -1,12 +1,17 @@
 .header {
   width: 100%;
-  min-height: 13vh;
 
   &__inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: relative;
+    min-height: 13vh;
+    padding-top: 1.3rem;
+
+    @include _480 {
+      min-height: 48px;
+    }
   }
 
   &__company {
@@ -14,13 +19,12 @@
     align-items: center;
     &-icon {
       width: 5.5rem;
-      height: 6.46rem;
 
       @include _979 {
         width: 4.5rem;
       }
       @include _480 {
-        width: 3rem;
+        width: 1.7rem;
       }
     }
     &-name {
@@ -53,13 +57,27 @@
     right: 0;
     width: 30px;
     height: 30px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     cursor: pointer;
 
     @include _1170 {
       display: block;
     }
 
-    &--open,
+    @include _480 {
+      transform: scale(0.65);
+    }
+
+    &--open {
+      position: absolute;
+      left: 0;
+      top: 3px;
+      width: 30px;
+      height: 3px;
+      background-color: $white;
+      border-radius: 1rem;
+    }
+
     &--open::after,
     &--open::before {
       position: absolute;
@@ -103,26 +121,32 @@
       width: 30px;
       height: 30px;
       top: 2rem;
-      right: 2rem;
+      right: 1.5rem;
       cursor: pointer;
+
+      @include _480 {
+        width: 18px;
+        top: 1.3rem;
+      }
     }
 
     &__links {
       display: flex;
       flex-direction: column;
       align-items: center;
-    }
-
-    &__link {
-      margin: 2rem 0rem;
+      margin: 0 2.5rem;
 
       @include _480 {
-        margin: 1rem 0;
+        margin: 0 2rem;
       }
     }
 
-    & a {
-      @extend .btn-nav;
+    &__link {
+      width: 100%;
+    }
+
+    &__link a {
+      @extend .btn-mobile-nav;
     }
   }
 

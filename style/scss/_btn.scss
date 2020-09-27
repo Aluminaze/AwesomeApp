@@ -4,13 +4,32 @@
   color: $white;
   border-radius: 1rem;
   padding: 1rem 2.9rem;
-  margin: 0 0.1rem;
   background-color: transparent;
   transition: background-color 0.5s ease;
 
   &:hover {
     color: $black-light;
     background-color: $white;
+  }
+
+  @include _480 {
+    font-size: 1rem;
+  }
+}
+
+.btn-mobile-nav {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 300;
+  color: $white;
+  transition: background-color 0.5s ease;
+  width: 100%;
+  padding: 1.5rem 0;
+  border-bottom: 0.5px solid $black-light;
+
+  @include _480 {
+    font-size: 1rem;
+    padding: 1rem 0;
   }
 }
 
